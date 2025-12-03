@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Corazón es Tuyo</title>
+    <link rel="icon" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Boton Modo Oscuro -->
+        <button id="toggleDarkMode" class="floating-button">
+            <i class="ri-sun-line"></i>
+        </button>
+
+        <!-- Sección Inicial -->
+        <section class="section active" id="inicio">
+            <h1>❤️ EU TE AMO NICOLE ❤️</h1>
+            <p>Te amarei até meu último suspiro, cada batida do meu coração é sua...</p>
+            <button class="btn" onclick="showSection('declaracion')">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg> Próximo</button>
+        </section>
+
+        <section class="section" id="declaracion">
+            <h1>VOCÊ QUER NAMORAR COMIGO ?</h1>
+            <p>Minha pequena, eu vivo por você, sou seu abrigo, sua perdição, você mexe com partes minhas que não obedecem razão nenhuma, EU TE AMO, EU TE QUERO por desejo profundo, por vício em você, você é minha escolha diária, minha fraqueza favorita, meu caos preferido, eu sou louco por você eu faria de tudo por você não importa quem for contra, eu passo por cima, que seja minha própria família, por você vou lutar até minha última gota de sangue e quando ela cair vou continuar lutando</p>
+            <div class="button-container">
+                <button class="btn" onclick="showSection('aceptacion')">SIM 💖</button>
+                <button class="btn" id="btnNo">NÃO 😢</button>
+            </div>
+        </section>
+
+        <section class="section" id="aceptacion">
+            <h1>💖 MINHA PEQUENA 💖</h1>
+            <div class="carta">
+                <h1>Esta carta é para você</h1>
+                <p>Amor, eu te amo muito, eu não saberia que a partir daquele dia no salão de festas eu me apaixonaria tanto, a única coisa que tenho certeza que é por você que sou apaixonado por você, não vou te dar promessas, vou te mostrar até onde vou por você, sou louco por você, sou obececado por você, você é minha e de mais ninguém, eu sou totalmente seu, o mais louco apaixonado, não vai existir ninguém nessa porra de mundo que vai ser mais louco do que eu por você, eu não somente te amo princesa, o amor é algo tão pequeno perto do que sinto por você, eu sou seu devoto, faminto por você, consumido por uma necessidade doentia de te ter comigo...Você não é minha escolha, é minha religião, minha fé profana...eu me ajoelharia sem pensar duas vezes, sabe porque ??? cada parte sua exige adoração, eu escolheria por infinitas vezes me perder em você, minha princesa, até o fim da minha vida vou ser o mais louco e apaixonado por você, ninguém vai competir, ninguém vai me alcançar, quero ver até onde você irá por mim, você é minha fraqueza, meu único refúgio no meio desse mundo merda cheio de caos, por você eu vou até a porra do fim do mundo, sou todinho seu, minha dona, minha mulher, todinha minha, somente minha, EU VOU CASAR COM VOCÊ, VOU COLOCAR UMA ALIANÇA EM SEU DEDO, EU TE AMO, OBRIGADO POR TUDO MINHA PEQUENA 🤍<br>
+                    - </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
